@@ -613,40 +613,32 @@ html {
   margin-bottom: 0.5rem;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.mt-7 {
-  margin-top: 1.75rem;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
 }
 
-.mb-7 {
-  margin-bottom: 1.75rem;
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
-.-mb-10 {
-  margin-bottom: -2.5rem;
+.-mb-6 {
+  margin-bottom: -1.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.-mb-5 {
+  margin-bottom: -1.25rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.-mb-\[23px\] {
+  margin-bottom: -23px;
+}
+
+.-mb-\[22px\] {
+  margin-bottom: -22px;
 }
 
 .block {
@@ -679,6 +671,30 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .items-center {
@@ -732,9 +748,9 @@ html {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
-.bg-blue-700 {
+.bg-red-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
@@ -793,16 +809,16 @@ html {
   padding-bottom: 1.25rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pt-10 {
@@ -833,16 +849,8 @@ html {
   padding-top: 1.75rem;
 }
 
-.pb-0 {
-  padding-bottom: 0px;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
+.pb-7 {
+  padding-bottom: 1.75rem;
 }
 
 .text-center {
@@ -887,16 +895,16 @@ html {
   font-weight: 700;
 }
 
+.font-light {
+  font-weight: 300;
+}
+
 .font-medium {
   font-weight: 500;
 }
 
 .font-thin {
   font-weight: 100;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .text-transparent {
@@ -996,6 +1004,10 @@ html {
 
   .md\:w-\[705px\] {
     width: 705px;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:max-w-full {

@@ -19,7 +19,7 @@ hamburger.addEventListener('click', function () {
 })
 
 // animation
-const words = ["Egi Satmata R"];
+const words = ["gi Satmata R"];
         let i = 0;
         let j = 0;
         let currentWord = "";
