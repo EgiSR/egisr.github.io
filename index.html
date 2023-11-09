@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
+    <title>Egi Satmata R</title>
+</head>
+<body>
+    
+    <header class="absolute top-0 left-0 right-0 p-5 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="" class="md:text-4xl font-bold py-16">EgiSR</a>
+                </div>
+
+                <div id="hamburger" class="md:hidden flex items-center px-4">
+                    <ion-icon name="reorder-three" class="text-4xl"></ion-icon>
+                </div>
+
+                <nav id="nav-menu" class="md:block md:static  md:shadow-none md:max-w-full md:bg-transparent hidden absolute py-5 bg-white shadow-lg rounded-lg mx-w-[250px] w-full top-full">
+                    <ul class="block md:flex justify-center text-center gap-6">
+                        <li class="pb-2"><a href="#home" class="md:text-2xl">Home</a></li>
+                        <li class="pb-2"><a href="#home" class="md:text-2xl">About</a></li>
+                        <li class="pb-2"><a href="#galery" class="md:text-2xl">Galery</a></li>
+                        <li class="pb-2"><a href="#portfolio" class="md:text-2xl">Portfolio</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-36">
+        <div class="w-80 md:w-[1130px] mx-auto">
+            <img src="img/photo.jpg" alt="" class="rounded-full w-28 h-28 mx-auto">
+            <div class="w-60 md:w-[705px] mx-auto pt-5">
+                <h1 class="font-medium text-3xl md:text-5xl">Hello! I'm <span id="typewriter" class="text-3xl md:text-5xl font-bold bg-gradient-to-t from-ungutua-0 to-ungumuda-0 bg-clip-text text-transparent"></span></h1>
+            </div>
+            
+            <p class="text-center pt-7">Fresh graduate Software Engineering at SMK 8 Malang born and raised in Indonesia. My coding journey began in 2022 when i was still at school, i'm very interest in technology.</p>
+
+            <h1 class="text-center font-bold pt-16">Lets Be Friends:D</h1>
+            <div class="flex gap-4 justify-center pt-3">
+                <a href="https://www.linkedin.com/in/egi-satmata-r-55aa06274">
+                    <div class="bg-white p-3 rounded-full drop-shadow-2xl flex items-center">
+                        <ion-icon name="logo-linkedin" class="text-[27px]"></ion-icon>
+                    </div>
+                </a>
+
+                <a href="https://instagram.com/egi.rahardian">
+                    <div class="bg-white p-3 rounded-full drop-shadow-2xl flex items-center">
+                        <ion-icon name="logo-instagram" class="text-[27px]"></ion-icon>
+                    </div>
+                </a>
+
+                <a href="https://github.com/egisr">
+                    <div class="bg-white p-3 rounded-full drop-shadow-2xl flex items-center">
+                        <ion-icon name="logo-github" class="text-[27px]"></ion-icon>
+                    </div>
+                </a>
+            </div>
+            <h1 id="galery" class="text-center font-bold pt-16 pb-4">My Galery</h1>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    
+    <!-- Galery -->
+    <div class="container px-6 mx-auto sm:flex sm:flex-wrap sm:gap-6 sm:justify-center" >
+        <div class="shadow-lg  overflow-hidden rounded-lg mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="img/sepeda.jpeg" alt="" class="w-full">
+            <div class="px-6 py-4">
+                <h1 class="font-bold text-xl mb-2">Jogging</h1>
+                <p class="text-sm">Jogging with father</p>
+            </div>
+        </div>
+        <div class="shadow-lg  overflow-hidden rounded-lg mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="img/flip.png" alt="" class="w-full">
+            <div class="px-6 py-4">
+                <h1 class="font-bold text-xl mb-2">Design</h1>
+                <p class="text-sm">First design for hero section with AI</p>
+            </div>
+        </div>
+        <div class="shadow-lg  overflow-hidden rounded-lg mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="img/flip1.png" alt="" class="w-full">
+            <div class="px-6 py-4">
+                <h1 class="font-bold text-xl mb-2">Second Design</h1>
+                <p class="text-sm">Second design with powerfull AI</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Galery -->
+
+    <!-- Portfolio -->
+    <!-- <section>
+        <div class="w-80 md:w-[1130px] mx-auto">
+            <h1 id="portfolio" class="text-center font-bold pt-10 pb-4">My Portfolio</h1>
+        </div>
+
+        <div class="container px-6 mx-auto sm:flex sm:flex-wrap sm:gap-6 sm:justify-center">
+            <div class="shadow-lg  overflow-hidden rounded-lg mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+                <img src="https://source.unsplash.com/600x400?nature" alt="" class="w-full">
+                <div class="px-6 py-4">
+                    <h1 class="font-bold text-xl mb-2">Judul</h1>
+                    <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, cum?</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End Portfolio -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="pb-5 bg-abuabu-0 sm:mt-11">
+            <h1 class="pt-7 text-center font-bold text-base md:text-4xl text-white">egisatmata.com</h1>
+            <ul class="text-white font-thin text-xs md:text-xl flex gap-4 justify-center pt-6 pb-4">
+                <a href="#home"><li>Home</li></a>
+                <a href="#home"><li>About</li></a>
+                <a href="#galery"><li>Galery</li></a>
+                <a href="#portfolio"><li>Portfolio</li></a>
+            </ul>
+            <div class="flex gap-4 justify-center pt-3">
+                <a href="www.linkedin.com/in/egi-satmata-r-55aa06274">
+                    <div class="bg-abuabu-0 bg-opacity-50 p-3 rounded-full drop-shadow-bayangan flex items-center">
+                        <ion-icon name="logo-linkedin" class="text-[27px] text-ungutua-0"></ion-icon>
+                    </div>
+                </a>
+            
+                <a href="https://instagram.com/egi.rahardian">
+                    <div class=" p-3 rounded-full drop-shadow-2xl flex items-center">
+                        <ion-icon name="logo-instagram" class="text-[27px] text-ungutua-0"></ion-icon>
+                    </div>
+                </a>
+            
+                <a href="https://github.com/egisr">
+                    <div class=" p-3 rounded-full drop-shadow-2xl flex items-center">
+                        <ion-icon name="logo-github" class="text-[27px] text-ungutua-0"></ion-icon>
+                    </div>
+                </a>
+            </div>
+            <div class="mt-8">
+                <h1 class="mb-5 text-white font-light text-center">© Made by <span class="font-bold">Egi Satmata R</span> with TailwindCSS 2023</h1>
+            </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="dist/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
